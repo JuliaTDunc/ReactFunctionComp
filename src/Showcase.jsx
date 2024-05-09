@@ -1,7 +1,8 @@
 function Showcase() {
+  let favPokemon = Charizard;
   return (
     <div>
-      <h1>Showcase Component</h1>
+      <h1>{favPokemon}&apos;sShowcase Component</h1>
     </div>
   );
 }
